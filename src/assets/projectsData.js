@@ -38,6 +38,6 @@ export const projectsData = [
     imageUrl:
       "https://user-images.githubusercontent.com/62301468/121772854-cb852b80-cb95-11eb-9f36-982a37803c55.png",
 
-    projectUrl: "https://khushi0321.github.io/portfolio/",
+    projectUrl: "https://khushi0321.github.io/portfolio/#/",
   },
 ];
