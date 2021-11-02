@@ -43,10 +43,10 @@ const Contact = () => {
               <img src={github} alt="social"/>
           </a>
           <a href="https://www.linkedin.com/in/khushi321/" className="social-icon">
-              <img src={twitter} alt="social"/>
+              <img src={linkedin} alt="social"/>
           </a>
           <a href="https://twitter.com/khushi_321" className="social-icon">
-              <img src={linkedin} alt="social"/>
+              <img src={twitter} alt="social"/>
           </a>
           <a href="https://khushi321.medium.com/" className="social-icon">
               <img src={medium} alt="social"/>
