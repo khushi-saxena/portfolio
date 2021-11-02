@@ -7,6 +7,7 @@ import github from './../../assets/gh.png';
 import linkedin from './../../assets/li.png';
 import medium from './../../assets/me.png';
 import web from './../../assets/web.png';
+import twitter from './../../assets/twitter.png';
 
 
 
@@ -42,6 +43,9 @@ const Contact = () => {
               <img src={github} alt="social"/>
           </a>
           <a href="https://www.linkedin.com/in/khushi321/" className="social-icon">
+              <img src={twitter} alt="social"/>
+          </a>
+          <a href="https://twitter.com/khushi_321" className="social-icon">
               <img src={linkedin} alt="social"/>
           </a>
           <a href="https://khushi321.medium.com/" className="social-icon">
