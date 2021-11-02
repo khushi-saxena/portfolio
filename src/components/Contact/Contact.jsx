@@ -45,7 +45,7 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/khushi321/" className="social-icon">
               <img src={linkedin} alt="social"/>
           </a>
-          <a href="https://twitter.com/khushi_321" className="social-icon">
+          <a href="#" className="social-icon">
               <img src={twitter} alt="social"/>
           </a>
           <a href="https://khushi321.medium.com/" className="social-icon">
