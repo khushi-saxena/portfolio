@@ -9,7 +9,7 @@ const About = () => {
         <div className="section-container">
         <Header
         heading="About Me."
-        details="Computer Engineering Undergraduate| Full-Stack Dev| Blogger"/>
+        details="Research Intern @ INMAS,DRDO | vGHC Scholar'21 | Azure Developer Community Lead | Member @LeanIN BV | Mentor "/>
         <div className="about-main">
             <div className="about-main-left">
             <h3 className="about-sub-head">My Experience</h3>
