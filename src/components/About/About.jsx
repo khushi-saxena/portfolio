@@ -14,7 +14,10 @@ const About = () => {
             <div className="about-main-left">
             <h3 className="about-sub-head">My Experience</h3>
               <p className="about details">
-                I am working as an Full-Stack Dev Intern at DG Techno Soft India.Here I am Developing a website from scratch using React Framework,REST-APIs and developed ongoing projects and Made their UI better using different languages and framework
+                <b>Research Intern</b>
+                <p>Working as Research Intern at INMAS, Defence Research and Development Organization (DRDO)</p>
+                <b>DG Techno Soft</b>
+                I worked as an Full-Stack Dev Intern at DG Techno Soft India.Here I am Developed a website from scratch using React Framework,REST-APIs and developed ongoing projects and Made their UI better using different languages and framework
                  {/* <a className="about-link-element" href="https://drive.google.com/file/d/1aCpj38kxO8S2cMg-6hZc2pqv1MndPk0u/view">.Check here!</a> */}
               </p>
               <h3 className="about-sub-head">Open Source Contributor</h3>
