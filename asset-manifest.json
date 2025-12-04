@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b405766d.css",
-    "main.js": "/portfolio/static/js/main.da1d63c2.js",
+    "main.css": "/portfolio/static/css/main.af099bae.css",
+    "main.js": "/portfolio/static/js/main.99485713.js",
     "static/media/home_anime.gif": "/portfolio/static/media/home_anime.f372ef867ab6dc71a52b.gif",
-    "static/media/hello.gif": "/portfolio/static/media/hello.3916ece80b15d09d7fd5.gif",
     "static/media/skills_vector.png": "/portfolio/static/media/skills_vector.1fb5f4a4d14c368c84df.png",
+    "static/media/ubs_logo.png": "/portfolio/static/media/ubs_logo.6a303e2c4e14d470252e.png",
+    "static/media/sdsu_logo.png": "/portfolio/static/media/sdsu_logo.0866047235ff74f9da59.png",
     "static/media/about_vector.png": "/portfolio/static/media/about_vector.c42fe3db5738a7e28724.png",
     "static/media/contact_anime.png": "/portfolio/static/media/contact_anime.1f3936c4dbee6daaaa77.png",
     "index.html": "/portfolio/index.html",
-    "main.b405766d.css.map": "/portfolio/static/css/main.b405766d.css.map",
-    "main.da1d63c2.js.map": "/portfolio/static/js/main.da1d63c2.js.map"
+    "main.af099bae.css.map": "/portfolio/static/css/main.af099bae.css.map",
+    "main.99485713.js.map": "/portfolio/static/js/main.99485713.js.map"
   },
   "entrypoints": [
-    "static/css/main.b405766d.css",
-    "static/js/main.da1d63c2.js"
+    "static/css/main.af099bae.css",
+    "static/js/main.99485713.js"
   ]
 }
