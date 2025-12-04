@@ -22,10 +22,10 @@ class Home extends Component {
     render() {
         return (
             <div className='home-container'>
-             {/* {this.state.showModal && <Modal closeModal={this.closeModal} />}  */}
+                {/* {this.state.showModal && <Modal closeModal={this.closeModal} />}  */}
                 <div className='header-text'>
                     <h1>Welcome to my portfolio!</h1>
-                    <p>This is Khushi Saxena, a full stack dev and blogger</p>
+                    <p>Full-Stack Engineer | AI-Driven Automation | Passionate about building scalable, high-performance solutions.</p>
                 </div>
                 <div className='head-btns'>
                     <Link to='/about' className='btn btn-white'>

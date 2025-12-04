@@ -3,30 +3,41 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 80px 20%;
+  margin: 60px 10%;
+  gap: 40px;
 }
 
 .skill {
   display: flex;
   flex-direction: column;
-  width: 150px;
+  width: 160px;
   align-items: center;
   margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  transition: all 0.3s ease;
 }
 
-.skill > img {
-  width: 108px;
-  margin-bottom: 15px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.skill:hover {
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-5px);
 }
 
-.skill > p {
-  font-family: Montserrat;
-  font-size: 24px;
-  line-height: 36px;
+.skill>img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 16px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+  object-fit: contain;
+}
+
+.skill>p {
+  font-family: var(--font-main);
+  font-size: 1.125rem;
+  line-height: 1.4;
   text-align: center;
-  letter-spacing: -0.015em;
-  color: #000;
+  font-weight: 500;
+  color: var(--text-primary);
   margin: 0;
 }
 
@@ -38,6 +49,7 @@
   bottom: 0;
   z-index: -10;
   width: 80%;
+  opacity: 0.1;
 }
 
 .skills-vector {
@@ -52,6 +64,11 @@
   }
 
   .skill-card-container {
-    margin: 80px 10%;
+    margin: 40px 5%;
+    gap: 20px;
+  }
+
+  .skill {
+    width: 120px;
   }
 }

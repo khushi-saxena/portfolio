@@ -1,7 +1,8 @@
 .contact-form-container {
   width: 50%;
   align-self: center;
-  margin: 70px 0;
+  margin: 40px 0;
+  max-width: 600px;
 }
 
 .contact-form {
@@ -9,41 +10,55 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .input-box {
-  background-color: #fff;
+  background-color: var(--bg-secondary);
   width: 100%;
-  border: 1px solid #e8e8e8;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   box-sizing: border-box;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-  border-radius: 39px;
-  padding: 19px 35px;
+  box-shadow: none;
+  border-radius: 12px;
+  padding: 16px 24px;
   margin: 10px 0;
-  font-family: Roboto;
-  font-size: 14px;
-  line-height: 16px;
+  font-family: var(--font-main);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-primary);
+  transition: all 0.2s ease;
+}
+
+.input-box:focus {
+  border-color: var(--accent-primary);
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .body-input {
-  height: 250px;
-  padding: 25px 35px;
+  height: 150px;
+  resize: vertical;
 }
 
 .contact-btn {
-  margin: 10px 0;
+  margin: 24px 0;
   border: none;
-  color: #fff;
-  font-weight: bold;
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 16px;
+  color: var(--bg-primary);
+  font-weight: 600;
+  font-family: var(--font-main);
+  font-size: 1rem;
   width: 100%;
   text-align: center;
-  padding: 17px 35px;
-  background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
-  border-radius: 35px;
+  padding: 16px 32px;
+  background: var(--accent-primary);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.contact-btn:hover {
+  background: var(--accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
 }
 
 .social-icons-container {
@@ -52,25 +67,31 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 32px;
+  margin-top: 32px;
 }
 
 .social-icon {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  margin: 21px;
+  filter: brightness(0) invert(1);
+  /* Make icons white */
+  opacity: 0.7;
+  transition: all 0.2s ease;
+  width: 40px;
+  height: 40px;
 }
 
-.social-icon:hover,
-.contact-btn:hover {
-  filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.32));
-  cursor: pointer;
-  transition: all 0.3s;
+.social-icon:hover {
+  opacity: 1;
+  transform: translateY(-3px);
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5)) brightness(0) invert(1);
 }
 
 @media only screen and (max-width: 640px) {
-  .social-icon {
-    margin: 8px 21px;
-  }
   .contact-form-container {
-    width: 80%;
+    width: 90%;
+  }
+
+  .social-icon {
+    margin: 0;
   }
 }

@@ -1,52 +1,101 @@
 export const skillList = [
+  // Programming Languages
   {
-    skillName: "HTML",
-    skillUrl:
-      "https://user-images.githubusercontent.com/62301468/121687119-974f3380-cadf-11eb-8f28-69e2a03e0604.png",
-  },
-  {
-    skillName: "CSS",
-    skillUrl:
-      "https://user-images.githubusercontent.com/62301468/121686875-5820e280-cadf-11eb-8cc4-65243f9e4232.png",
+    skillName: "TypeScript",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   },
   {
     skillName: "JavaScript",
-    skillUrl:
-      "https://user-images.githubusercontent.com/62301468/121687353-e09f8300-cadf-11eb-9b4d-aefc6c3e248d.png",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   },
   {
-    skillName: "React",
-    skillUrl:
-      "https://user-images.githubusercontent.com/62301468/121687657-37a55800-cae0-11eb-8aa5-ab3075d122c0.png",
-  },
-  {
-    skillName: "Redux",
-    skillUrl:
-      "https://user-images.githubusercontent.com/62301468/121687751-54419000-cae0-11eb-8afe-ed5a449ef0a2.png",
-  },
-  {
-    skillName: "NodeJS",
-    skillUrl:
-      "https://user-images.githubusercontent.com/62301468/121687543-19d7f300-cae0-11eb-9152-7a8da64ef14f.png",
-  },
-  {
-    skillName: "TypeScript",
-    skillUrl:
-      "https://user-images.githubusercontent.com/62301468/121687852-72a78b80-cae0-11eb-9f65-a95d553b5429.png",
+    skillName: "Python",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
   },
   {
     skillName: "Java",
-    skillUrl:
-      "https://user-images.githubusercontent.com/62301468/121687240-bfd72d80-cadf-11eb-8abe-a11a9dba4ae7.png",
-  },
-  {
-    skillName: "MongoDB",
-    skillUrl:
-      "https://user-images.githubusercontent.com/62301468/121687472-0462c900-cae0-11eb-9cd8-11ea6b7862c1.png",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
   },
   {
     skillName: "C++",
-    skillUrl:
-      "https://user-images.githubusercontent.com/62301468/121688617-493b2f80-cae1-11eb-9585-fc6060b2f4a4.png",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+  },
+  {
+    skillName: "C#",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+  },
+  {
+    skillName: "Go",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+  },
+  {
+    skillName: "SQL",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+  },
+  
+  // Frontend
+  {
+    skillName: "React",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  },
+  {
+    skillName: "HTML5",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  },
+  {
+    skillName: "CSS3",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  },
+  {
+    skillName: "Redux",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+  },
+  
+  // Backend & Databases
+  {
+    skillName: "Node.js",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+  },
+  {
+    skillName: "FastAPI",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+  },
+  {
+    skillName: "PostgreSQL",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+  },
+  {
+    skillName: "MongoDB",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+  },
+  {
+    skillName: "Redis",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+  },
+  
+  // DevOps & Tools
+  {
+    skillName: "AWS",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+  },
+  {
+    skillName: "Docker",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+  },
+  {
+    skillName: "Linux",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+  },
+  {
+    skillName: "Azure",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
+  },
+  {
+    skillName: "Git",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+  },
+  {
+    skillName: "GitLab",
+    skillUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg",
   },
 ];

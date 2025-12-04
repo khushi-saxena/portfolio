@@ -9,12 +9,12 @@
 
 /* Color to our burger */
 .bm-burger-bars {
-  background: #373a47;
+  background: var(--text-primary);
 }
 
 /* Color to our burger icon on hover */
 .bm-burger-bars-hover {
-  background: #000;
+  background: var(--accent-primary);
 }
 
 /* Size of the cross button */
@@ -25,7 +25,7 @@
 
 /* Color of cross button */
 .bm-cross {
-  background: #fff;
+  background: var(--text-primary);
 }
 
 /* Sidebar wrapper styles */
@@ -33,49 +33,48 @@
   position: fixed;
   height: 100vh;
   overflow-x: hidden;
-  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  box-shadow: 4px 0 24px rgba(0, 0, 0, 0.5);
 }
 
 .bm-menu {
-  background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
+  background-color: var(--bg-secondary);
   padding: 2.5em 1.5em 0 0;
   height: 100vh;
   overflow: hidden !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .bm-item-list {
   padding: 0.8em;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .menu-item {
   position: relative;
-  font-size: 2em;
+  font-size: 1.5em;
   text-decoration: none;
-  color: #fff;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  padding: 10px;
+  color: var(--text-secondary);
+  font-family: var(--font-main);
+  font-weight: 500;
+  padding: 10px 16px;
+  transition: color 0.2s ease;
+  border-radius: 8px;
 }
 
-.menu-item:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #fff;
-  visibility: hidden;
-  transition: all 0.5s ease-in-out;
+.menu-item:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 .active-item {
-  font-weight: 500;
+  color: var(--accent-primary);
+  font-weight: 600;
+  background: rgba(56, 189, 248, 0.1);
 }
 
-.menu-item:hover:before,
-.active-item:before {
-  visibility: visible;
-  height: 3px;
+/* Remove the underline effect and use background/color instead for cleaner look */
+.menu-item:before {
+  display: none;
 }

@@ -1,42 +1,134 @@
 .about-main {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 60px 80px 80px 80px;
-}
-
-.about-main-left,
-.about-main-right {
-  width: 50%;
-}
-
-.about-main-right {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.about-main-left {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-
-.about-link-element {
-  color: #000;
+  padding: 60px 80px;
+  color: var(--text-primary);
+  width: 100%;
+  max-width: 1200px;
 }
 
 .about-sub-head {
+  margin: 0 0 40px 0;
+  font-size: 2rem;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.experience-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.experience-card {
+  background: var(--bg-secondary);
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid rgba(56, 189, 248, 0.1);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(56, 189, 248, 0.3);
+  box-shadow: 0 8px 16px rgba(56, 189, 248, 0.1);
+}
+
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.company-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.company-logo-placeholder {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-hover));
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+}
+
+.card-title {
+  flex: 1;
+}
+
+.card-title h4 {
+  margin: 0 0 8px 0;
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.company-name {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+  color: var(--accent-primary);
+  font-weight: 500;
+}
+
+.duration {
   margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  font-style: italic;
 }
 
-.about-details {
-  margin: 10px 0 32px 0;
+.card-details {
+  margin: 0 0 20px 0;
+  padding-left: 24px;
+  color: var(--text-secondary);
+  line-height: 1.8;
 }
 
-.about-anime {
-  width: 520px;
-  max-width: 100%;
-  max-height: 100%;
+.card-details li {
+  margin-bottom: 12px;
+}
+
+.card-details li:last-child {
+  margin-bottom: 0;
+}
+
+.tech-stack {
+  padding: 16px;
+  background: rgba(56, 189, 248, 0.05);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.tech-label {
+  color: var(--accent-primary);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.about-link-element {
+  color: var(--accent-primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.about-link-element:hover {
+  text-decoration: underline;
 }
 
 .vector-frame {
@@ -45,6 +137,7 @@
   left: 0;
   bottom: 0;
   width: 55%;
+  opacity: 0.1;
 }
 
 .about-vector {
@@ -58,21 +151,30 @@
     width: 90%;
   }
 
-  .about-head {
-    width: 80%;
-  }
-
-  .about-head > p {
-    font-size: 1.2em;
-    line-height: 1.2em;
-  }
-
   .about-main {
     padding: 50px 32px;
   }
 
-  .about-main-left,
-  .about-main-right {
-    width: 100%;
+  .experience-card {
+    padding: 24px;
+  }
+
+  .card-header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .company-logo,
+  .company-logo-placeholder {
+    width: 60px;
+    height: 60px;
+  }
+
+  .card-title h4 {
+    font-size: 1.25rem;
+  }
+
+  .about-sub-head {
+    font-size: 1.5rem;
   }
 }

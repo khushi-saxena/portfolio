@@ -1,32 +1,50 @@
+:root {
+  --bg-primary: #0f172a; /* Slate 900 */
+  --bg-secondary: #1e293b; /* Slate 800 */
+  --text-primary: #f8fafc; /* Slate 50 */
+  --text-secondary: #94a3b8; /* Slate 400 */
+  --accent-primary: #38bdf8; /* Sky 400 */
+  --accent-hover: #0ea5e9; /* Sky 500 */
+  --font-main: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 body {
   min-height: 100vh;
   box-sizing: border-box;
   margin: 0;
   width: 100%;
   overflow-x: hidden;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-main);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
 }
 
 input:focus,
 textarea:focus,
 select:focus {
-  outline: none;
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
 }
+
 .section-container {
   box-sizing: border-box;
   min-height: 100vh;
   position: relative;
-  padding: 50px 0;
+  padding: 80px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* For the small width screens */
 @media only screen and (max-width: 640px) {
   .section-container {
-    padding: 100px 0;
+    padding: 60px 20px;
   }
 }
