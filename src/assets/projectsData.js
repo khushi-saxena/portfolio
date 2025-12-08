@@ -1,4 +1,13 @@
+import airslides from './airslides.svg';
+
 export const projectsData = [
+  {
+    projectName: "AirSlides",
+    projectDescription:
+      "Control presentations using hand gestures detected via the webcam. Features Next/Prev slide, Pointer, and Draw modes.",
+    imageUrl: airslides,
+    projectUrl: "https://github.com/khushi-saxena/AirSlides",
+  },
   {
     projectName: "NaamKaran!",
     projectDescription:

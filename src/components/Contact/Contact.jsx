@@ -14,55 +14,55 @@ import twitter from './../../assets/twitter.png';
 const Contact = () => {
     return (
         <div className="section-container">
-             <Header
-         heading="Get in Touch"
-         details="Feel free to drop me an email."
-        />
-        <div className="contact-form-container">
-            <form className="contact-form" action="https://formspree.io/f/moqywjzp"
-  method="POST">
-                <input 
-                type="email"
-                placeholder="Your Email ID"
-                name="_replyto"
-                className="input-box email-input"/>
+            <Header
+                heading="Get in Touch"
+                details="Feel free to drop me an email."
+            />
+            <div className="contact-form-container">
+                <form className="contact-form" action="https://formspree.io/f/meoylgqd"
+                    method="POST">
+                    <input
+                        type="email"
+                        placeholder="Your Email ID"
+                        name="email"
+                        className="input-box email-input" />
 
-                <textarea
-                type="text"
-                placeholder="Your message"
-                name="message"
-                className="input-box body-input">
+                    <textarea
+                        type="text"
+                        placeholder="Your message"
+                        name="message"
+                        className="input-box body-input">
 
-                </textarea>
-            <button type="submit" className="contact-btn">Send Email</button>
-            </form>
-        </div>
+                    </textarea>
+                    <button type="submit" className="contact-btn">Send Email</button>
+                </form>
+            </div>
 
-        <div className="social-icons-container">
-          <a href="https://github.com/Khushi-saxena" className="social-icon">
-              <img src={github} alt="social"/>
-          </a>
-          <a href="https://www.linkedin.com/in/khushi-saxena/" className="social-icon">
-              <img src={linkedin} alt="social"/>
-          </a>
-          <a href="https://twitter.com/khushistwt" className="social-icon">
-              <img src={twitter} alt="social"/>
-          </a>
-          <a href="https://khushi-saxena.medium.com/" className="social-icon">
-              <img src={medium} alt="social"/>
-          </a>
-          <a href="https://khushi-saxena.github.io/portfolio/#/" className="social-icon">
-              <img src={web} alt="social"/>
-          </a>
+            <div className="social-icons-container">
+                <a href="https://github.com/Khushi-saxena" className="social-icon">
+                    <img src={github} alt="social" />
+                </a>
+                <a href="https://www.linkedin.com/in/khushi-saxena/" className="social-icon">
+                    <img src={linkedin} alt="social" />
+                </a>
+                <a href="https://twitter.com/khushistwt" className="social-icon">
+                    <img src={twitter} alt="social" />
+                </a>
+                <a href="https://khushi-saxena.medium.com/" className="social-icon">
+                    <img src={medium} alt="social" />
+                </a>
+                <a href="https://khushi-saxena.github.io/portfolio/#/" className="social-icon">
+                    <img src={web} alt="social" />
+                </a>
 
 
-        </div>
-        <FooterLink
-        phrase="Read more "
-        link=" about me."
-        toAdress="/about"/>
+            </div>
+            <FooterLink
+                phrase="Read more "
+                link=" about me."
+                toAdress="/about" />
 
-<div className='vector-frame'>
+            <div className='vector-frame'>
                 <img
                     src={ContactVector}
                     alt='vector'
@@ -70,7 +70,7 @@ const Contact = () => {
                 />
             </div>
         </div>
-        
+
     )
 }
 
